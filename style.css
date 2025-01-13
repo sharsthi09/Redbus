@@ -1176,27 +1176,51 @@
 }
 .ques{
     width: 1200px;
-    height: 70px;
+    /* height: 70px; */
     border: 1px solid #eeeef0;
     margin-left: 160px;
     margin-top: 30px;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.quesclick{
+    width: 1200px;
+    /* height: 160px; */
+    border: 1px solid #eeeef0;
+    margin-left: 160px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-color: #F3F4F9;
 }
 .ques_txt{
     font-size: 14px;
     font-weight: 690;
     color: #1D1D1D;
-    margin-top: 26px;
     margin-left: 27px;
+    padding-bottom: 10px;
+}
+.ans{
+    font-size: 14px;
+    color: #262626;
+    margin-top: 10px;
+    margin-left: 27px;
+    line-height: 19px;
+    display: none;
+    margin-right: 10px;
+}
+.showans{
+    display: block;
 }
 .plus_que{
     font-size: 20px;
     font-weight: 690;
     color: #1D1D1D;
-    margin-top: 23px;
     margin-right: 27px;
+    float: right;
+    /* border: 1px solid black; */
 }
 .footer{
     background-color: #F7F7F7;
